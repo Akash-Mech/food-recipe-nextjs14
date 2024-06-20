@@ -37,4 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 
-Food recipe project on nextjs14(Data fetching, routing, Basic Nextjs Concepts(layout, not-found))
+Food recipe project on nextjs14(Data fetching, routing)
