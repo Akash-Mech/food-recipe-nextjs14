@@ -10,7 +10,7 @@ export default function RecipeList({recipeList}) {
   return (
     <div>
        <div className="p-4 mx-auto lg:max-w-6xl md:max-w-4xl sm:max-w-full">
-        <h2 className="text-4xl font-bold text-red-600 mb-10">Recipes</h2>
+        <h2 className="text-4xl font-bold text-red-800 mb-10">Recipes</h2>
         <Link href={"/"} className='p-3 text-xl  px-4 py-2 bg-red-700 text-white rounded-md font-serif hover:scale-110 transition-all ease-in-out'>Go Home</Link>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-4">
           {recipeList && recipeList.length > 0
