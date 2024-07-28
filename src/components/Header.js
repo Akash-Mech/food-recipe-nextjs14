@@ -11,7 +11,7 @@ const Header = () => {
     setActive(!active)
   }
   return (
-    <header className="flex flex-wrap items-center justify-between w-full h-20">
+    <header className="flex flex-wrap items-center justify-between z-10 fixed bg-white w-full h-20">
       <div
         id="logo"
         className="lg:text-xl p-2 mr-4 inline-flex items-center  font-bold"

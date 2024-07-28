@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        <div className="container mx-auto">
+        <div className="px-4 md:px-8 mx-auto">
           <Suspense fallback={<Loading />}>{children}</Suspense>
         </div>
         <Footer />

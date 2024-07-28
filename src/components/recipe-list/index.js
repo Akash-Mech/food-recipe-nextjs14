@@ -29,7 +29,7 @@ export default function RecipeList({ recipeList }) {
           <input
             type="text"
             placeholder="search here"
-            className="p-3 outline-none border w-1/3 rounded-lg "
+            className="p-3 outline-none border md:w-1/3 rounded-lg "
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
