@@ -4,7 +4,7 @@
 
   @layer base {
     :root {
-      --background: 0 0% 100%;
+      --background: 230 37% 97%;
       --foreground: 222.2 84% 4.9%;
 
       --card: 0 0% 100%;
@@ -73,4 +73,26 @@
     body {
       @apply bg-background text-foreground;
     }
+  }
+
+  @layer utilities {
+    .text-balance {
+      text-wrap: balance;
+    }
+  
+    .text-brand-color {
+      @apply text-blue-500;
+    }
+  
+    .hover\:text-brand-color:hover {
+      @apply text-blue-700;
+    }
+  }
+  
+  .mySwiper {
+    text-align: -webkit-center
+  }
+  
+  .nav-menu {
+    @apply lg:inline-flex hover:text-brand-color md:text-base p-5 md:p-0 lg:py-0 md:px-3 cursor-pointer;
   }
