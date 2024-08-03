@@ -1,40 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Food Recipe App
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Food Recipe](https://akash05-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frecipe.9c1aa4a2.png&w=2048&q=75)
 
 
+A dynamic food recipe application designed to help users discover and explore various recipes.
 
-Food recipe project on nextjs14(Data fetching, routing)
+## Tech Stack
+
+- **Framework:** Next.js, React.js
+- **Styling:** Tailwind CSS
+
+## Features
+
+- **Recipe Discovery:** Explore a wide variety of recipes.
+- **Dynamic Data Fetching:** Efficiently fetch data from APIs using Next.js.
+- **Smooth Navigation:** Seamless routing for an enhanced user experience.
+- **Form Handling:** Easy recipe submissions and user interactions using `react-hook-form`.
+- **Smooth Scrolling:** Enhanced navigation with smooth scrolling capabilities using `react-scroll`.
+- **Interactive Sliders:** Modern and interactive recipe sliders using `swiper`.
+
+## Important Packages
+
+- **react-hook-form:**  - For handling form validations and submissions.
+- **react-scroll:** - For smooth scrolling functionality.
+- **swiper:**  - For creating interactive sliders and carousels.
+
+## Live Demo
+
+Check out the live demo [here](https://recipe-nextjs14.netlify.app/).
