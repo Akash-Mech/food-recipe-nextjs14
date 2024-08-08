@@ -8,9 +8,11 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
 
+
 import { FreeMode, Pagination, Autoplay } from 'swiper/modules';
 import Image from 'next/image';
 import Link from 'next/link';
+
 
 export const Category = ({ recipe }) => {
     const uniqueCuisines = [...new Map(recipe.map(item => [item.cuisine, item.image])).entries()];
@@ -35,7 +37,8 @@ export const Category = ({ recipe }) => {
                 }}
                 autoplay={{
                     delay: 1000,
-                    disableOnInteraction: false,
+                    disableOnInteraction: true,
+                    pauseOnMouseEnter:true,
                 }}
                 modules={[FreeMode, Pagination, Autoplay]}
                 className="mySwiper"

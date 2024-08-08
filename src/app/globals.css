@@ -96,3 +96,4 @@
   .nav-menu {
     @apply lg:inline-flex hover:text-brand-color md:text-base p-5 md:p-0 lg:py-0 md:px-3 cursor-pointer;
   }
+
